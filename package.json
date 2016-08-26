@@ -1,0 +1,20 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "template",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "node_modules/.bin/grunt"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^2.2.1"
+  },
+  "author": "turunco",
+  "license": "ISC"
+}
