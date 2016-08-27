@@ -4,6 +4,9 @@ module.exports = function(grunt) {
  
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		clean: {
+			reinstall: ['node_modules']
+		},
 		connect: {
 			server: {
 				options: {
@@ -19,6 +22,7 @@ module.exports = function(grunt) {
 
 	// plugin
 
+	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
 	// tasks
