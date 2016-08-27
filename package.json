@@ -11,9 +11,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-jshint": "^0.10.0",
-    "jshint-stylish": "^2.2.1"
+    "grunt-contrib-connect": "^1.0.2"
   },
   "author": "turunco",
   "license": "ISC"
